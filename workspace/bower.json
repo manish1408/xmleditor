@@ -1,0 +1,19 @@
+{
+  "name": "Bootstrap-Gulp-Scss-Starter",
+  "version": "0.0.1",
+  "authors": [
+    "Manish Gautam <manish.gautam.india@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.manishgautam.com/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5"
+  }
+}
