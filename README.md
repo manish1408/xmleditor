@@ -1,8 +1,9 @@
-Bootstrap-Gulp-Scss-Starter
+XML -Editor
 ===========================
 
-A starter project including full setup for Bootstrap, GulpJS, SASS, AutoPrefixer, BrowserSync, and more.
-
+A starter project including full setup for jsPlumb Bootstrap, GulpJS, SASS, AutoPrefixer, BrowserSync.
+    Ideal as a development starter for jsPlumb Websites
+    It uses a xml Visual Editor as a demo where the user can directly edit and save the nodes
 ## System Preparation
 
 To use this starter project, you'll need the following things installed on your machine.

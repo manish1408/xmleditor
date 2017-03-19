@@ -152,6 +152,11 @@ gulp.task('clean', function(cb) {
     ], cb);
 });
 
+gulp.task('copy', function() {
+    gulp.src([app.src_path+'/**/*'])
+    .pipe(gulp.dest(dist_path.root))
+});
+
 /**
  * Build dist
  */
@@ -169,6 +174,7 @@ gulp.task('default', function(callback) {
     run_sequence(
         ['clean', 'watch'],
         ['build'],
+        ['copy'],
         ['browser-sync-server'],
         callback
     );
