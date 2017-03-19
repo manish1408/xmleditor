@@ -140,6 +140,7 @@ gulp.task('browser-sync-server', ['build'], function() {
 gulp.task('watch', function() {
     gulp.watch(src_path.sass+'/**/*.+(scss|sass)', ['sass']);
     gulp.watch(src_path.root+'/**/*.html', ['html']);
+     gulp.watch(app.src_path+'/**/*', ['copy']);
 });
 
 /**

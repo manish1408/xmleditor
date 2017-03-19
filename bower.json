@@ -1,11 +1,7 @@
 {
   "name": "xmleditor",
   "version": "0.0.1",
-  "authors": [
-    "Manish Gautam <manish.gautam.india@gmail.com>"
-  ],
   "license": "MIT",
-  "homepage": "http://www.manishgautam.com/",
   "ignore": [
     "**/.*",
     "node_modules",

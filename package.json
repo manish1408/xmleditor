@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Manish Gautam <manish.gautam.india@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.8.2",
