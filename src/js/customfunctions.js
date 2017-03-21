@@ -9,5 +9,5 @@ $.getJSON("js/data.json", function (data) {
     html: items.join("")
   });
   console.log(nav);
-  $('.nav').html(nav[0].innerHTML)
+  // $('.nav').html(nav[0].innerHTML)
 });

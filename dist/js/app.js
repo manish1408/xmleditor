@@ -1,4 +1,9 @@
-jsPlumb.ready(function () {
+function add() {
+  $('#canvas').append('<div class="window" id="dynamicWindow7"><strong>7</strong><br/><br/></div> ')
+  Init();
+}
+
+function Init() {
 
     var sourceAnchors = [
             [0.2, 0, 0, -1, 0, 0, "foo"],
@@ -116,4 +121,9 @@ jsPlumb.ready(function () {
 
         jsPlumb.fire("jsPlumbDemoLoaded", instance);
     });
+
+}
+
+jsPlumb.ready(function () {
+    Init();
 });

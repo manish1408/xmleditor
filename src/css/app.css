@@ -97,3 +97,171 @@ path, .jtk-endpoint {
     cursor: pointer;
 }
 
+
+
+
+.sidebar-collapsed {
+  padding-right: 65px;
+  transition: all 100ms linear;
+  transition-delay: 300ms;
+}
+
+.sidebar-collapsed-back {
+  padding-right: 280px;
+  transition: all 100ms linear;
+}
+
+.sidebar-collapsed .sidebar-menu {
+  width: 65px;
+  transition: all 100ms ease-in-out;
+  transition-delay: 300ms;
+}
+
+.sidebar-collapsed-back .sidebar-menu {
+  width: 280px;
+  transition: all 100ms ease-in-out;
+}
+
+.sidebar-collapsed .sidebar-icon {
+  transform: rotate(90deg);
+  transition: all 300ms ease-in-out;
+}
+
+.sidebar-collapsed-back .sidebar-icon {
+  transform: rotate(0deg);
+  transition: all 300ms ease-in-out;
+}
+
+.sidebar-collapsed .logo {
+  padding: 21px;
+  height: 136px;
+  box-sizing: border-box;
+  transition: all 100ms ease-in-out;
+  transition-delay: 300ms;
+}
+
+.sidebar-collapsed-back .logo {
+  width: 100%;
+  padding: 21px;
+  height: 136px;
+  box-sizing: border-box;
+  transition: all 100ms ease-in-out;
+}
+
+.sidebar-collapsed #logo {
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+}
+
+.sidebar-collapsed-back #logo {
+  opacity: 1;
+  transition: all 200ms ease-in-out;
+  transition-delay: 300ms;
+}
+
+.sidebar-collapsed #menu span {
+  opacity: 0;
+  transition: all 50ms linear;
+}
+
+.sidebar-collapsed-back #menu span {
+  opacity: 1;
+  transition: all 200ms linear;
+  transition-delay: 300ms;
+}
+
+.sidebar-menu {
+  position: fixed;
+  float: left;
+  width: 280px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #303641;
+  color: #aaabae;
+  font-family: "Segoe UI";
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+#menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#menu li {
+  position: relative;
+  margin: 0;
+  font-size: 12px;
+  border-bottom: 1px solid rgba(69, 74, 84, 0.7);
+  padding: 0;
+}
+
+#menu li ul {
+  opacity: 0;
+  height: 0px;
+}
+
+#menu li a {
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+  color: #aaabae;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+#menu li a:hover {
+  color: #ffffff;
+  background-color: #333944;
+  transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
+}
+
+#menu li.active > a {
+  background-color: #2b303a;
+  color: #ffffff;
+}
+
+#menu ul li { background-color: #2b303a; }
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu li ul {
+  position: absolute;
+  visibility: hidden;
+  right: 100%;
+  top: -1px;
+  background-color: #2b303a;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.1s linear;
+  border-top: 1px solid rgba(69, 74, 84, 0.7);
+}
+
+#menu li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+}
+
+#menu li li ul { 
+  right: 100%;
+  visibility: hidden;
+  top: -1px;
+  opacity: 0;
+  transition: opacity 0.1s linear;
+}
+
+#menu li li:hover ul {
+  visibility: visible;
+  opacity: 1;
+}
+
+#menu .fa { margin-right: 5px; }
