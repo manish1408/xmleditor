@@ -1,4 +1,10 @@
-jsPlumb.ready(function () {
+function add() {
+  $()
+  Init();
+}
+
+function Init() {
+  jsPlumb.ready(function () {
 
     var sourceAnchors = [
             [0.2, 0, 0, -1, 0, 0, "foo"],
@@ -117,3 +123,4 @@ jsPlumb.ready(function () {
         jsPlumb.fire("jsPlumbDemoLoaded", instance);
     });
 });
+}
