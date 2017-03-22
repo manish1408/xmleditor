@@ -175,7 +175,7 @@ path, .jtk-endpoint {
   float: left;
   width: 280px;
   top: 0;
-  right: 0;
+  left: 0;
   bottom: 0;
   background-color: #303641;
   color: #aaabae;
@@ -237,7 +237,7 @@ path, .jtk-endpoint {
 #menu li ul {
   position: absolute;
   visibility: hidden;
-  right: 100%;
+  left: 100%;
   top: -1px;
   background-color: #2b303a;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);

@@ -1,5 +1,36 @@
 {
-  "one": "Singular sensation",
-  "two": "Beady little eyes",
-  "three": "Little birds pitch by my doorstep"
+  "node": {
+    "name" : "Node 1",
+    "attributes" : [
+      {
+      "attributeName" : "Test",
+      "attributeValue" : 1
+      },
+      {
+      "attributeName" : "Test 2",
+      "attributeValue" : 2
+      },
+      {
+      "attributeName" : "Test 3",
+      "attributeValue" : 3
+      }
+   ]
+  },
+  {
+    "name" : "Node 2",
+    "attributes" : [
+      {
+      "attributeName" : "Test",
+      "attributeValue" : 21
+      },
+      {
+      "attributeName" : "Test 2",
+      "attributeValue" : 22
+      },
+      {
+      "attributeName" : "Test 3",
+      "attributeValue" : 23
+      }
+   ]
+  }
 }
